@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.form{
+    width: 368px;
+    height: 404px;
+    padding: 0px 16px;
+    margin: 20px auto;
+}
+
+.form svg{
+    width: 40px;
+    height: 40px;
+    fill: rgb(217, 217, 217);
+}
+
+.form h1{
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color:rgb(217, 217, 217);
+}
+
+.inputs{
+    width: 368px;
+    height: 244px;
+}
+
+.form .inputs input:nth-child(1){
+    width: 300px;
+    height: 34px;
+    padding: 12px 16px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(47, 51, 54);
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+}
+
+.form .inputs input:nth-child(1):focus{
+    border: 1px solid rgb(29, 161, 242);
+}
+
+.form .inputs input:nth-child(2){
+    margin-top: 27px;
+    width: 300px;
+    height: 34px;
+    padding: 12px 16px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(47, 51, 54);
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+}
+
+.form .inputs input:nth-child(2):focus{
+    border: 1px solid rgb(29, 161, 242);
+}
+
+.form button{
+    margin-top: 25px;
+    width: 337px;
+    height: 46px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(29, 161, 242);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0px 32px;
+    border-radius: 40px;
+}
+
+.forgot-password-and-sign-up{
+    width: 336px;
+    height: 20px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.forgot-password-and-sign-up a{
+    text-decoration: none;
+    color: rgb(27, 149, 224);
+}
+
+.forgot-password-and-sign-up a:hover{
+    text-decoration: underline;
+}
+
+.forgot-password-and-sign-up span{
+    padding: 0px 4px;
+    color: rgb(110, 118, 125);
+    position: relative;
+    bottom: 3px;
+}
+

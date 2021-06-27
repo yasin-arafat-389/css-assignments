@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(255, 167, 0, 0.7)
+      ),
+      url("../img/bgp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.form{
+      width: 700px;
+      height: 515px;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 14px;
+  }
+
+  .form h1{
+      text-align: center;
+      font-family: candara;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;    
+}
+
+.form input{
+    display: block;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    padding: 10px 0px;
+    margin-top: 40px;
+    border: none;
+    border-bottom: 2px solid #999;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea{
+    display: block;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    padding: 10px 0px;
+    margin-top: 40px;
+    font-family: candara;
+}
+
+.btn{
+    text-align: center;
+}
+
+.form button{
+    display: inline-block;
+    width: 203px;
+    height: 44px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image:linear-gradient( 
+        45deg, rgba(255, 0, 0, 1), rgba(255, 255, 0, 1)
+    );
+}
+
+.form button span{
+    position: relative;
+    bottom: 1px;
+}

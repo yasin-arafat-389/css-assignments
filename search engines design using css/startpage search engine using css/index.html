@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/font awesome/css/all.css">
+    <link rel="shortcut icon" href="assets/img/apple-touch-icon-57x57--default.png" type="image/x-icon">
+    <title>Startpage - Private Search Engine. No Tracking. No Search History.</title>
+</head>
+
+<body>
+    <!-- logo part start -->
+    <div class="logo">
+    </div>
+    <!-- logo part end -->
+
+    <!-- search bar start -->
+    <div class="sbar">
+        <input type="text" class="txt" placeholder="Start your private search">
+        <button class="btn"><i class="fas fa-search"></i></button>
+    </div>
+    <!-- search bar end -->
+
+    <!-- marketting tag start -->
+    <div class="marketting-tag">
+        <h2 class="headline">Don't be tracked online. Protect your personal data.</h2>
+        <ul>
+            <li>No collecting or selling search history</li>
+            <li>No 3rd party ad trackers or cookies</li>
+            <li>Search and browse anonymously</li>
+        </ul>
+    </div>
+    <!-- marketting tag end -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script>
+        $('.txt').focus(function () {
+            $('.btn').css("border-color", "rgb(101, 115, 255)");
+        });
+
+        $('.txt').focusout(function () {
+            $('.btn').css("border-color", "#fff");
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.logo{
+    width: 100%;
+    height: 62px;
+    text-align: center;
+    margin: 100px auto 0px;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu .wb{
+    margin-left: 0px;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 48px;
+    font-size: 16px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #787f94;
+}
+
+.menu ul li .active{
+    border-bottom: 3px solid #f28c15;
+    font-weight: 700;
+    color: black;
+} 
+
+.sbar{
+    width: 560px;
+    height: 45px;
+   margin: 0px auto;
+}
+
+.sbar input{
+    width: 485px;
+    height: 28px;
+    padding: 5px 10px 5px 15px;
+    outline: none;
+    border: 1px solid rgb(207, 210, 220);
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    border-right: none;
+}
+
+.sbar button{
+    width: 40px;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(207, 210, 220);
+    cursor: pointer;
+    border-left: none;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}

@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+}
+
+@font-face {
+  font-family: SulaimanLipi;
+  src: url(../fonts/SolaimanLipi_20-04-07.ttf);
+}
+
+.body{
+  font-family: SulaimanLipi;
+  font-size: 14px;
+}
+
+.container{
+    height: 100%;
+}
+
+.container img{
+    position: absolute;
+    bottom: 0px;
+}
+
+.container .top-bar{
+    height: 110px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+}
+
+.container .top-bar button{
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+    color: #FFF;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #8CC152;
+    background-color: #8CC152;
+    float: right;
+}
+
+.container .top-bar button:hover{
+    border-color: #A0D468;
+    background-color: #A0D468;
+}
+
+.container .top-bar button:focus{
+    background-color: rgb(25, 108, 75);
+}
+
+.logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo img{
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+.sb{
+    text-align: center;
+}
+
+.sb input{
+    width: 735px;
+    height: 43px;
+    outline: none;
+    border: 1px rgb(222, 222, 222) solid;
+    border-radius: 7px;
+    box-shadow:  0 0 2px rgb(0 0 0 / 20%);
+    padding-left: 16px;
+    font-size: 17px;
+}
+
+p {
+    margin-bottom: 20px;
+  }
+
+  p{
+      position: absolute;
+      right: 3px;
+  }
+  
+  .toggleSwitch span span {
+    display: none;
+  }
+  
+  @media only screen {
+    .toggleSwitch {
+      display: inline-block;
+      height: 18px;
+      position: relative;
+      overflow: visible;
+      padding: 0;
+      margin-left: 50px;
+      cursor: pointer;
+      width: 40px
+    }
+    .toggleSwitch * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .toggleSwitch label,
+    .toggleSwitch > span {
+      line-height: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+    .toggleSwitch input:focus ~ a,
+    .toggleSwitch input:focus + label {
+      outline: none;
+    }
+    .toggleSwitch label {
+      position: relative;
+      z-index: 3;
+      display: block;
+      width: 100%;
+    }
+    .toggleSwitch input {
+      position: absolute;
+      opacity: 0;
+      z-index: 5;
+    }
+    .toggleSwitch > span {
+      position: absolute;
+      left: -50px;
+      width: 100%;
+      margin: 0;
+      padding-right: 50px;
+      text-align: left;
+      white-space: nowrap;
+    }
+    .toggleSwitch > span span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      display: block;
+      width: 50%;
+      margin-left: 50px;
+      text-align: left;
+      font-size: 0.9em;
+      width: 100%;
+      left: 15%;
+      top: -1px;
+      opacity: 0;
+    }
+    .toggleSwitch a {
+      position: absolute;
+      right: 50%;
+      z-index: 4;
+      display: block;
+      height: 100%;
+      padding: 0;
+      left: 2px;
+      width: 18px;
+      background-color: white;
+      border: 1px solid #CCC;
+      border-radius: 100%;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+    .toggleSwitch > span span:first-of-type {
+      color: #ccc;
+      opacity: 1;
+      left: 45%;
+    }
+    .toggleSwitch > span::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 50px;
+      top: -2px;
+      background-color: green;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+    }
+    
+    .toggleSwitch input:checked ~ a {
+      border-color: #fff;
+      left: 100%;
+      margin-left: -8px;
+    }
+    .toggleSwitch input:checked ~ span:before {
+      border-color: #0097D1;
+      box-shadow: inset 0 0 0 30px #0097D1;
+    }
+    .toggleSwitch input:checked ~ span span:first-of-type {
+      opacity: 0;
+    }
+    .toggleSwitch input:checked ~ span span:last-of-type {
+      opacity: 1;
+      color: #fff;
+    }
+ }
+
+.sb button{
+  height: 46px;
+  width: 54px;
+  background-color: #8CC152;
+  position: absolute;
+  right: 298px;
+  top: 346px;
+  border: #8CC152 solid;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.sb button i{
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.sb button:hover{
+   border-color: rgb(160, 212, 104);
+   background-color: rgb(160, 212, 104);
+    outline: none;
+    cursor: pointer;
+}
+
+.sb button:focus{
+  background-color: rgb(25, 108, 75);
+  border: 1px black solid;
+}
+
+p{
+  position: absolute;
+  right: 376px;
+  top: 364px;
+}
+
+.icon-list{
+  text-align: center;
+  margin: 15px auto;
+  width: 750px;
+  height: 80px;
+  position: absolute;
+  left: 415px;
+}
+
+.crn{
+  width: 100px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+
+.crn img{
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px;
+  transition: 0.1s;
+}
+
+.crn img:hover{
+  transform: scale(1.3);
+}
+
+.crt{
+  width: 100px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+
+.crt img{
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px;
+  transition: 0.1s;
+}
+
+.crt img:hover{
+  transform: scale(1.3);
+}
+
+.js{
+  width: 100px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+
+.js img{
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px;
+  transition: 0.1s;
+}
+
+.js img:hover{
+  transform: scale(1.3);
+}
+
+.ln{
+  width: 100px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+
+.ln img{
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px;
+  transition: 0.1s;
+}
+
+.ln img:hover{
+  transform: scale(1.3);
+}
+
+.a2i{
+  width: 100px;
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+
+.a2i img{
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px;
+  transition: 0.1s;
+}
+
+.a2i img:hover{
+  transform: scale(1.3);
+}
+
+
+

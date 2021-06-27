@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #202945;
+}
+
+.logo{
+    width: 240px;
+    height: 54px;
+    background-image: url("../img/startpage-logo-dark.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 150px auto 25px;
+}
+
+.sbar{
+    text-align: center;
+}
+
+.sbar .txt{
+    width: 316px;
+    height: 25px;
+    padding: 10px 32px 13px 25px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 16px;
+}
+
+::placeholder{
+  color: rgb(166, 175, 255);
+}
+
+.sbar input:focus{
+    border-color: rgb(101, 115, 255);
+}
+
+.sbar .btn{
+    width: 45px;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    right: 5px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.sbar .btn i{
+    color: white;
+    font-weight: 600;
+    color: rgb(166, 175, 255);
+}
+
+.btn i:hover{
+    color: white;
+}
+
+.marketting-tag{
+    height: 162px;
+    text-align: center;
+}
+
+.headline{
+    margin: 32px 0px 18px;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+}
+
+.marketting-tag ul{
+    width: 320px;
+    height: 84px;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.marketting-tag ul li{
+    list-style: none;
+    background-image: url("../img/check-icon-dark.svg");
+    background-repeat: no-repeat;
+    background-position: 6px 4px;
+    margin-bottom: 12px;
+}

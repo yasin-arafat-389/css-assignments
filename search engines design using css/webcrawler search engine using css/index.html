@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/font awesome/css/all.css">
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+    <title>WebCrawler Search</title>
+</head>
+
+<body>
+    <!-- logo part start -->
+    <div class="logo">
+        <img src="assets/img/logo.svg" alt="">
+    </div>
+    <!-- logo part end -->
+
+    <!-- menu part start -->
+    <div class="menu">
+        <ul>
+            <li class="wb"><a href="#" class="active">Web</a></li>
+            <li><a href="#">Images</a> </li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+    </div>
+    <!-- menu part end -->
+
+    <!-- search bar start -->
+    <div class="sbar">
+        <input type="text">
+        <button><svg xmlns="http://www.w3.org/2000/svg" height="17" width="17">
+                <path
+                    d="M6.87 11.67c-2.565 0-4.644-2.107-4.644-4.706 0-2.6 2.079-4.707 4.643-4.707 2.564 0 4.643 2.107 4.643 4.707 0 2.6-2.079 4.706-4.643 4.706m9.728 2.953l-3.908-3.962a6.998 6.998 0 001.05-3.698C13.738 3.117 10.662 0 6.868 0S0 3.117 0 6.963s3.075 6.963 6.87 6.963c1.458 0 2.81-.462 3.923-1.248l3.861 3.915a1.36 1.36 0 001.944 0 1.407 1.407 0 000-1.97"
+                    fill="#4f5f8f" fill-rule="evenodd" />
+            </svg></button>
+    </div>
+    <!-- search bar end -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script>
+        $('.menu ul li a').click(function () {
+            $('.menu ul li a').removeClass("active");
+            $(this).addClass("active");
+        })
+    </script>
+</body>
+
+</html>

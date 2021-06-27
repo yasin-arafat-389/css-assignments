@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: trajan;
+    src: url("../fonts/TrajanPro-Bold.otf");
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: trajan;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/pexels-pixabay-302769.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}   
+
+.form h1{
+    position: absolute;
+    left: 41%;
+    top: 10%;
+    font-size: 50px;
+    color: #fff;
+}
+
+.location{
+    width: 390px;
+    height: 90px;
+    position: absolute;
+    top: 34%;
+    left: 17%;
+}
+
+.icn{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+}
+
+.icn i{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-size: 23px;
+}
+
+.location h3{
+    display: inline-block;
+    color: skyblue;
+    margin-left: 7px;
+}
+
+.location p{
+    color: #fff;
+    padding-left: 58px;
+}
+
+.phone{
+    width: 390px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+.icn2{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+}
+
+.icn2 i{
+    position: relative;
+    top: 13px;
+    left: 14px;
+    font-size: 23px;
+}
+
+.phone h3{
+    display: inline-block;
+    color: skyblue;
+    margin-left: 7px;
+}
+
+.phone p{
+    color: #fff;
+    padding-left: 58px;
+}
+
+.mail{
+    width: 390px;
+    height: 90px;
+    position: absolute;
+    top: 64%;
+    left: 17%;
+}
+
+.icn3{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+}
+
+.icn3 i{
+    position: relative;
+    top: 13px;
+    left: 14px;
+    font-size: 23px;
+}
+
+.mail h3{
+    display: inline-block;
+    color: skyblue;
+    margin-left: 7px;
+}
+
+.mail p{
+    color: #fff;
+    padding-left: 58px;
+    text-transform: lowercase;
+}
+
+.input-form{
+    width: 358px;
+    height: 309px;
+    position: absolute;
+    right: 13%;
+    top: 26%;
+    background-image: linear-gradient(to bottom, rgba(252, 92, 125, 0.7), rgba(106, 130, 251, 0.7));
+    border-radius: 9px;
+}
+
+.input-form h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-form input{
+    outline: none;
+    border: none;
+    display: block;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-bottom: 2px black solid;
+    margin: 20px 0px;
+    font-family: trajan;
+    background: transparent;
+}
+
+::placeholder{
+    color: black;
+}
+
+.input-form textarea{
+    height: 80px;
+   outline: none;
+    border: none;
+    display: block;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-bottom: 2px black solid;
+    margin: 20px 0px;
+    font-family: trajan;
+    background: transparent;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn i{
+    position: relative;
+    left: 37px;
+    top: 0px;
+}
+
+.btn button{
+    width: 125px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(49, 71, 85) 0%, rgb(38, 160, 218) 51%, rgb(49, 71, 85) 100%);
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+
+
+
+

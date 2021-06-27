@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+}
+
+.topbar{
+    width: 700px;
+    height: 93px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+.topbar .logo1{
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.logo1 img{
+    transition: transform ease-out .15s,-webkit-transform ease-out .15s;
+}
+
+.logo1 p{
+    color: #000;
+}
+
+.logo1:hover img{
+    transform: translateY(-5px);
+}
+
+.logo1:hover p{
+    color: #c00;
+}
+
+.topbar .logo2{
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.logo2 img{
+    transition: transform ease-out .15s,-webkit-transform ease-out .15s;
+}
+
+.logo2 p{
+    color: #000;
+}
+
+.logo2:hover img{
+    transform: translateY(-5px);
+}
+
+.logo2:hover p{
+    color: #c00;
+}
+
+.topbar .logo3{
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.logo3 img{
+    height: 56px;
+    transition: transform ease-out .15s,-webkit-transform ease-out .15s;
+}
+
+.logo3 p{
+    color: #000;
+}
+
+.logo3:hover img{
+    transform: translateY(-5px);
+}
+
+.logo3:hover p{
+    color: #c00;
+}
+
+.topbar .logo4{
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.logo4 img{
+    width: 56px;
+    transition: transform ease-out .15s,-webkit-transform ease-out .15s;
+}
+
+.logo4 p{
+    color: #000;
+}
+
+.logo4:hover img{
+    transform: translateY(-5px);
+}
+
+.logo4:hover p{
+    color: #c00;
+}
+
+.topbar .logo5{
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.logo5 img{
+    cursor: pointer;
+    width: 56px;
+    transition: transform ease-out .15s,-webkit-transform ease-out .15s;
+}
+
+.logo5 p{
+    color: #000;
+    cursor: pointer;
+}
+
+.logo5:hover img{
+    transform: translateY(-5px);
+}
+
+.logo5:hover p{
+    color: #c00;
+}
+
+.topbar .logo6{
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 0px 22px;
+}
+
+.logo6 img{
+    cursor: pointer;
+    width: 56px;
+    transition: transform ease-out .15s,-webkit-transform ease-out .15s;
+}
+
+.logo6 p{
+    color: #000;
+    cursor: pointer;
+}
+
+.logo6:hover img{
+    transform: translateY(-5px);
+}
+
+.logo6:hover p{
+    color: #c00;
+}
+
+.sbar .box{
+    position: relative;
+    bottom: 39px;
+    left: 130px;
+}
+
+.sbar{
+    position: absolute;
+    top: 290px;
+    left: 238px;
+}
+
+.sbar input{
+    border-radius: .625rem .375rem .375rem .625rem;
+    border: 2px solid #f5c400;
+    font-size: 13px;
+    outline: none;
+    width: 629px;
+    height: 36px;
+    padding-left: 11px;
+    padding-right: 40px;
+}
+
+.sbar button{
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 85px;
+    height: 40px;
+    background-color: #f5c400;
+    border-radius: 0 .625rem .625rem 0;
+    position: relative;
+    right: 7px;
+    top: 1px;
+}
+
+.sbar button:hover{
+    background: #f5c400;
+}
+
+.sbar i{
+    font-size: 22px;
+    position: relative;
+    right: 133px;
+    top: 4px;
+    color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+
+.sbar i:hover{
+    color: rgb(179, 179, 179);
+}

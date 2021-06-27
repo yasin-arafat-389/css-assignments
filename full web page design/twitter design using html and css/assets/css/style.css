@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+body::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    height: 586px;
+}
+
+.main-content{
+    width: 583px;
+    height: 551px;
+    padding: 16px;
+    float: left;
+}
+
+.container{
+    width: 543px;
+    height: 441px;
+    padding: 20px;
+}
+
+.top-logo{
+    width: 45px;
+    height: 57px;
+    padding-bottom: 12px;
+}
+
+.top-logo svg{
+    fill: rgb(217, 217, 217);;
+}
+
+.title{
+    width: 543px;
+    height: 84px;
+    margin: 48px 0px;
+}
+
+.title .hn{
+    font-size: 64px;
+    font-weight: 700;
+    color: rgb(217, 217, 217);
+}
+
+.title-2{
+    width: 543px;
+    height: 36px;
+    margin-bottom: 32px;
+}
+
+.title-2 .jtt{
+    font-size: 31px;
+    font-weight: 700;
+    color: rgb(217, 217, 217);
+}
+
+.sign-up{
+    width: 380px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.sign-up .su a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.sign-up .su{
+    text-decoration: none;
+    width: 380px;
+    height: 48px;
+    padding: 0px 32px;
+    background-color: rgb(29, 161, 242);
+    border-radius: 9999px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.sign-up .su:hover{
+    background-color: rgb(26, 145, 218);
+}
+
+.log-in{
+    width: 380px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.log-in .li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(29, 161, 242);
+    font-weight: 700;
+}
+
+.log-in .li{
+    text-decoration: none;
+    width: 380px;
+    height: 48px;
+    padding: 0px 32px;
+    background-color: transparent;
+    border-radius: 9999px;
+    outline: none;
+    border: 1px solid rgb(29, 161, 242);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.log-in .li:hover{
+    background-color: rgb(3, 16, 25);
+}
+
+.footer{
+    width: 97.6%;
+    height: 42px;
+    padding: 12px 16px;
+    display: inline-block;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 16px;
+    margin: 4px 0px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    font-weight: 400;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer .copyright{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    font-weight: 400;
+    text-align: center;
+}

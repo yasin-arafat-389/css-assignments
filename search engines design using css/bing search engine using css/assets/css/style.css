@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: Segoe UI;
+    src: url(../fonts/Segoe\ UI.ttf);
+}
+
+body{
+    font-family: Segoe UI;
+}
+
+.container{
+    height: 625px;
+    background-image: url(../img/th.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sb{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sb .tl{
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom left,rgba(0,0,0,.5) -20%,transparent 30%);
+    height: 28%;
+    position: absolute;
+}
+
+.sb .tr{
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom right,rgba(0,0,0,.5) -20%,transparent 30%);
+    height: 28%;
+    position: absolute;
+}
+
+.sb .btm{
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.6) 100%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 28%;
+    position: absolute;
+}
+
+.top-bar{
+    height: 55px;
+    width: 80%;
+    position: absolute;
+    right:10% ;
+}
+
+.top-bar svg{
+    height: 55px;
+    width: 154px;
+    float: left;
+    margin-right: 72px;
+}
+
+.top-bar .squares .top_l{
+    fill: #f26522;
+}
+
+.top-bar .squares .top_r{
+    fill: #8dc63f;
+}
+
+.top-bar .squares .bom_l{
+    fill: #00aeef;
+}
+
+.top-bar .squares .bom_r{
+    fill: #ffc20e;
+}
+
+.top-bar .logo .ms_text{
+    fill: #fff;
+}
+
+.top-bar .logo .b_text{
+    fill: #fff;
+}
+
+.links{
+    width: 206px;
+    height: 47px;
+    float: left;
+}
+
+.links a:nth-child(1){
+    color: rgba(255,255,255,.8);
+    font-size:  .8125rem;
+    margin-right: 36px;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+.links a:nth-child(1):hover{
+    color: #fff;
+}
+
+.links a:nth-child(2){
+    color: rgba(255,255,255,.8);
+    font-size:  .8125rem;
+    margin-right: 36px;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+.links a:nth-child(2):hover{
+    color: #fff;
+}
+
+.links i{
+    color: rgba(255,255,255,.8);
+    font-size: .8125rem;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+}
+
+.links i:hover{
+    color: #fff;
+}
+
+.tbr{
+    width: 159px;
+    height: 40px;
+    float: right;
+    font-family: Segoe UI;
+}
+
+.tbr span{
+    color: #fff;
+    cursor: pointer;
+    font-size: .8125rem;
+    position: relative;
+    bottom: 8px;
+}
+
+.btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #ececec;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/profile\ icon.png);
+    margin: 1px 5px 2px 1px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+}
+
+.tbr .mb{
+    width: 52px;
+    height: 23px;
+    float: right;
+    position: relative;
+    right: 0px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.tbr .mb div{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+
+.sbar{
+    position: absolute;
+    left: 0;
+    top: 127px;
+    left: 366px;
+}
+
+.sbar input{
+    width: 584px;
+    height: 40px;
+    padding: 8px 10px;
+    font-size:  1.125rem;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    border: none;
+    border-radius: 6px;
+}
+
+.sbar svg{
+    width: 29.297px;
+    height: 23.391px;
+    fill: #00809d;
+    cursor: pointer;
+    position: absolute;
+    right: 90px;
+    top: 15px;
+}
+
+.sbar img{
+    width: 24.297px;
+    height: 23.391px;
+    position: absolute;
+    right: 58px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.sbar i{
+    width: 29.297px;
+    height: 23.391px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #00809d;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.icn{
+    width: 172.516px;
+    height: 40px;
+   
+}
+
+.icn .icon{
+    width: 80.516px;
+    height: 40px;
+    background-color: rgba(34,34,34,.9);
+    border-radius: 6px;
+    margin: 0 .125rem;
+    text-align: left;
+    cursor: pointer;
+    position: absolute;
+    bottom: 47px;
+    right: 220px;
+    background-color: rgba(34,34,34,.9);
+}
+
+.icn .icon svg{
+    fill: #fff;
+    position: relative;
+    top: 10px;
+    left: 9px;
+}
+
+.icn .icon span{
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 13px;
+}
+
+.nav{
+    width: 84px;
+    height: 40px;
+}
+
+.nav .left{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: rgba(34,34,34,.9);
+    position: absolute;
+    top: 0px;
+    left: 93px;
+    border-radius: 6px;
+}
+
+.nav .left i{
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 9px;
+}
+
+.nav .right{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: rgba(34,34,34,.9);
+    position: absolute;
+    top: 0px;
+    left: 144px;
+    border-radius: 6px;
+}
+
+.nav .right i{
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 9px;
+}
+
+.footer{
+    width: 80%;
+    height: 36px;
+    padding: 0 10%;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .body{
+    width: 1092.800px;
+    height: 36px;
+}
+
+.footer .body span{
+    float: right;
+    color: #666;
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+}
+
+.footer .body span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer .body .spans{
+    float: left;
+}
+
+.spans span:nth-child(1){
+    padding-right: 24px;
+}
+
+.spans span:nth-child(1):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spans span:nth-child(2){
+    padding-right: 24px;
+}
+
+.spans span:nth-child(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spans span:nth-child(3){
+    padding-right: 24px;
+}
+
+.spans span:nth-child(3):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spans span:nth-child(4){
+    padding-right: 24px;
+}
+
+.spans span:nth-child(4):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spans span:nth-child(5){
+    padding-right: 24px;
+}
+
+.spans span:nth-child(5):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spans span:nth-child(6){
+    padding-right: 24px;
+}
+
+.spans span:nth-child(6):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 240px;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+.sbar{
+    height: 60px;
+    text-align: center;
+}
+
+.sbar input{
+    width: 766px;
+    height: 43px;
+    padding: 0px 16px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 16px;
+}
+
+.sbar .si{
+    width: 24px;
+    height: 33px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    background-color: #408EC9;
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+    right: 4px;
+}
+
+.sbar .si i{
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    top: 7px;
+}
+
+.sbar .si:focus, .sbar .si:active{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.bottom{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.bottom ul li{
+    text-align: center;
+    display: inline-block;
+}
+
+.bottom ul li a{
+    font-size: 14px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #444;
+    text-decoration: none;
+}
+
+.bottom ul li a:hover{
+    color: #cf0000;
+}

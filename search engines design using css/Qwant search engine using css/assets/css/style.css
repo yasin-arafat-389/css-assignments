@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(25, 25, 27);
+}
+
+.logo{
+    width: 340px;
+    height: 180px;
+    margin: 100px auto 30px;
+    text-align: center;
+}
+
+.sbar{
+    width: 610px;
+    height: 55px;
+    margin: 0px auto;
+}
+
+.sbar input{
+    width: 526px;
+    height: 24px;
+    padding: 12px 20px;
+    background-color: rgb(41, 41, 47);
+    outline: none;
+    border: none;
+    border-radius: 34px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sbar input:focus{
+    box-shadow: 0 0 0 4px rgb(128 172 255 / 24%);
+}
+
+.sbar button{
+    width: 39px;
+    height: 35px;
+    position: relative;
+    right: 63px;
+    top: 6px;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.sbar button svg{
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.txt{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 23px;
+}
+

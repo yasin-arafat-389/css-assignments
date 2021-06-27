@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(243, 242, 239);
+}
+
+.logo-and-text{
+    width: 100%;
+    height: 122px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.logo svg{
+    width: 135px;
+    height: 34px;
+    margin-top: 24px;
+}
+
+.text{
+    color: #000;
+    font-size: 31px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.form{
+    width: 352px;
+    height: 455px;
+    padding: 24px 24px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0px auto;
+}
+
+.inputs{
+    width: 352px;
+    height: 126px;
+}
+
+.input1 label{
+    display: block;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input1 input{
+    width: 330px;
+    height: 30px;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+    border-radius: 4px;
+    color: rgba(0,0,0,0.9);
+}
+
+.input1 input:hover{
+    border-color: rgba(0,0,0,0.9);
+}
+
+.input1 input:focus{
+    border: 2px solid rgba(0,0,0,0.6);
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+}
+
+.input2 label{
+    display: block;
+    color: rgba(0,0,0,0.6);
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input2 input{
+    width: 330px;
+    height: 30px;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+    border-radius: 4px;
+    color: rgba(0,0,0,0.9);
+}
+
+.input2 input:hover{
+    border-color: rgba(0,0,0,0.9);
+}
+
+.input2 input:focus{
+    border: 2px solid rgba(0,0,0,0.6);
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+}
+
+.agreement{
+    width: 352px;
+    height: 30px;
+    margin: 30px 0px;
+    font-size: 12.5px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.agreement a{
+    text-decoration: none;
+    color: #0a66c2;
+}
+
+.agreement a:hover{
+    text-decoration: underline;
+}
+
+.aj{
+    width: 320px;
+    height: 48px;
+    padding: 0px 16px;
+    background-color: rgb(10, 102, 194);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 167ms;
+}
+
+.aj:hover{
+    background-color: #004182;
+}
+
+.divider{
+    height: 24px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.divider .horizontal-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(205, 207, 210);
+}
+
+.divider span{
+    color: rgba(0,0,0,0.9);
+    padding: 0px 20px;
+    background-color: #fff;
+    position: relative;
+    bottom: 12px;
+}
+
+.jwg{
+    width: 320px;
+    height: 46px;
+    padding: 0px 24px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid #0a66c2;
+    border-radius: 24px;
+    transition-duration: 167ms;
+    cursor: pointer;
+}
+
+.jwg svg{
+    position: relative;
+    top: 2px;
+}
+
+.jwg span{
+    padding-left: 12px;
+    color: #0a66c2;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    bottom: 4px;
+}
+
+.jwg:hover{
+    background-color: #ecf4fe;
+    box-shadow: inset 0px 0px 0px 1px #025cb9;
+}
+
+.sign-in{
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 24px;
+}
+
+.sign-in .ail{
+    color: rgba(0,0,0,0.9);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sign-in .si{
+    text-decoration: none;
+    color: #0a66c2;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sign-in .si:hover{
+    text-decoration: underline;
+}

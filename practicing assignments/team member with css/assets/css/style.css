@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+}
+
+.heading {
+height: 350px;
+width: 100%;
+overflow: hidden;
+display: block;
+}
+
+.heading h1{
+    font-size: 50px;
+    font-family: elephant;
+    font-weight: normal;
+    text-align: center;
+    font-size: 80px;
+    background-color: black;
+    color: white;
+    display: table;
+    margin: 0px auto;
+    margin-top: 74px;
+}
+
+.heading h2{
+    font-size: 30px;
+    font-family: elephant;
+    font-weight: normal;
+    text-align: center;
+    font-size: 37px;
+    background-color: black;
+    color: white;
+    display: table;
+    margin: 0px auto;
+}
+
+.heading{
+    background-image: url('../img/logo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.team1{
+    width: 100%;
+    height: 440px;
+    background-color: peachpuff;
+    display: inline-block;
+    overflow: auto;
+}
+
+.team1 h4{
+    text-align: center;
+    font-family: cooper black;
+    font-size: 60px;
+    background-color: green;
+    color: red;
+}
+
+.team1 .sah{
+    width: 32%;
+    height: 363px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.team1 .sah:hover{
+    background-color: grey ;
+}
+
+.team1 .sah img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team1 .sah h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team1 .sah p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team1 .mbm{
+    width: 32%;
+    height: 363px;
+    margin-left: 10px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: auto;
+}
+
+.team1 .mbm:hover{
+    background-color: grey ;
+}
+
+.team1 .mbm img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team1 .mbm h3{
+    font-family: castellar;
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+}
+
+.team1 .mbm p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team1 .ti{
+    width: 32%;
+    height: 363px;
+    margin-left: 10px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: auto;
+}
+
+.team1 .ti:hover{
+    background-color: grey ;
+}
+
+.team1 .ti img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team1 .ti h3{
+    font-family: castellar;
+    font-size: 37px;
+    font-weight: normal;
+    color: white;
+}
+
+.team1 .ti p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team2{
+    width: 100%;
+    height: 440px;
+    background-color: peachpuff;
+    display: inline-block;
+    overflow: auto;
+}
+
+.team2 h4{
+    text-align: center;
+    font-family: cooper black;
+    font-size: 60px;
+    background-color: white;
+    color: green;
+}
+
+.team2 .kob{
+    width: 32%;
+    height: 363px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.team2 .kob:hover{
+    background-color: grey ;
+}
+
+.team2 .kob img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team2 .kob h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team2 .kob p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team2 .nob{
+    width: 32%;
+    height: 363px;
+    margin-left: 10px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.team2 .nob:hover{
+    background-color: grey ;
+}
+
+.team2 .nob img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team2 .nob h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team2 .nob p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team2 .wil{
+    width: 32%;
+    height: 363px;
+    margin-left: 10px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.team2 .wil:hover{
+    background-color: grey ;
+}
+
+.team2 .wil img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team2 .wil h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team2 .wil p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team3{
+    width: 100%;
+    height: 440px;
+    background-color: peachpuff;
+    display: inline-block;
+    overflow: auto;
+}
+
+.team3 h4{
+    text-align: center;
+    font-family: cooper black;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+}
+
+.team3 .kane{
+    width: 32%;
+    height: 363px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.team3 .kane:hover{
+    background-color: grey ;
+}
+
+.team3 .kane img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team3 .kane h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team3 .kane p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team3 .mar{
+    width: 32%;
+    height: 363px;
+    margin-left: 10px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.team3 .mar:hover{
+    background-color: grey ;
+}
+
+.team3 .mar img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team3 .mar h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team3 .mar p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}
+
+.team3 .ross{
+    width: 32%;
+    height: 363px;
+    margin-left: 10px;
+    border: 3px red solid;
+    text-align: center;
+    background-color: black;
+    float: left;
+    overflow: auto;
+}
+
+.team3 .ross:hover{
+    background-color: grey ;
+}
+
+.team3 .ross img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.team3 .ross h3{
+    font-family: castellar;
+    font-size: 39px;
+    font-weight: normal;
+    color: white;
+}
+
+.team3 .ross p{
+    color: white;
+    font-family: century;
+    font-weight: normal;
+}

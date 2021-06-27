@@ -1,0 +1,376 @@
+* {
+  margin: 0px;
+}
+
+body{
+  background-color: peachpuff;
+}
+
+.bd { 
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  font-family: cooper black ;
+  margin: 0px auto;
+}
+
+.bd span:nth-child(2){
+  color: red;
+  text-align: center;
+  font-family: cooper black ;
+  font-size: 30px;
+}
+
+.bd span:nth-child(3){
+  color:green;
+  text-align: center;
+  font-family: cooper black ;
+  font-size: 30px;
+}
+
+.green{
+  background-color: green;
+  height: 170px;
+  width: 325px;
+  margin: 13px auto;
+  overflow: hidden;
+}
+
+.red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 32px auto 0px;
+}
+
+.jpn{
+  text-align: center;
+}
+.jpn span:nth-child(1){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.jpn span:nth-child(2){
+  color: red;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.jpn span:nth-child(3){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.japan{
+  background-color: white;
+  height: 170px;
+  width: 325px;
+  margin: 13px auto;
+  border: 1px solid black;
+}
+
+.red-circle{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 32px auto 0px;
+}
+
+.grmn{
+  text-align: center;
+}
+
+.grmn p:nth-child(1){
+  color: black;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.grmn p:nth-child(2){
+  color: rgb(255, 0, 0);
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.grmn p:nth-child(3){
+  color: yellow;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.germany{
+  width: 325px;
+  height: 56px;
+  background-color: red;
+  margin: 13px auto;
+  border-top: 56px black solid;
+  border-bottom: 56px yellow solid;
+}
+
+.arg{
+  text-align: center;
+}
+
+.arg p:nth-child(1){
+  color: skyblue;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.arg p:nth-child(2){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.arg p:nth-child(3){
+  color:skyblue;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.argentina{
+  text-align: center;
+  width: 325px;
+  height: 56px;
+  background-color: white;
+  margin: 13px auto;
+  border-top: 56px skyblue solid;
+  border-bottom: 56px skyblue solid;
+}
+
+.icon img{
+  width: 55px;
+}
+
+.cnd{
+  text-align: center;
+}
+
+.cnd span:nth-child(1){
+  color: red;
+  font-size: 30px;
+  font-family: cooper black;
+}
+
+.cnd span:nth-child(2){
+  color: white;
+  font-size: 30px;
+  font-family: cooper black;
+}
+
+.cnd span:nth-child(3){
+  color: red;
+  font-size: 30px;
+  font-family: cooper black;
+}
+
+.canada{
+  text-align: center;
+  margin: 13px auto;
+  height: 170px;
+  width: 153px ;
+  background-color: white;
+  border-left: 80px red solid;
+  border-right: 80px red solid;
+}
+
+.canada img{
+  width: 150px;
+}
+
+.itl{
+  text-align: center;
+}
+
+.itl span:nth-child(1){
+  color: green;
+  font-size: 30px;
+  font-family: cooper black;
+}
+
+.itl span:nth-child(2){
+  color: white;
+  font-size: 30px;
+  font-family: cooper black;
+}
+
+.itl span:nth-child(3){
+  color: red;
+  font-size: 30px;
+  font-family: cooper black;
+}
+
+.italy{
+  margin: 13px auto;
+  height: 170px;
+  width: 142px;
+  background-color: white;
+  border-left: 100px green solid;
+  border-right: 100px red solid;
+}
+
+.spn{
+  text-align: center;
+}
+
+.spn p:nth-child(1){
+  color: rgb(198, 0, 0);
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.spn p:nth-child(2){
+  color: yellow;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.spn p:nth-child(3){
+  color: rgb(198, 0, 0);
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.spain{
+  background-color: yellow;
+  height: 70px;
+  width: 325px ;
+  margin: 13px auto;
+  border-top: 50px rgb(198, 0, 0) solid;
+  border-bottom: 50px rgb(198, 0, 0) solid;
+}
+
+.spain img{
+  width: 70px;
+  margin-left: 48px;
+}
+
+.swl{
+  text-align: center;
+}
+
+.swl p:nth-child(1){
+  color: red;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.swl p:nth-child(2){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.swl p:nth-child(3){
+  color: red;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.switzerland{
+  background-color: red;
+  height: 170px;
+  width: 325px;
+  margin: 13px auto;
+  overflow: hidden;
+}
+
+.plus{
+  height: 110px;
+  width: 37px;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.vrt{
+  height: 37px;
+  width: 110px;
+  background-color: white;
+  margin: -105px auto;
+}
+
+.eng{
+  text-align: center;
+}
+
+.eng p:nth-child(1){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.eng p:nth-child(2){
+  color: red;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.eng p:nth-child(3){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.england{
+  background-color: white;
+  height: 170px;
+  width: 325px;
+  margin: 13px auto;
+}
+
+.vr{
+  height: 170px;
+  width: 37px;
+  margin: 30px auto;
+  background-color: red;
+
+}
+
+.hrz{
+  height: 37px;
+  width: 325px;
+  margin: -131px auto;
+  background-color: red;
+}
+
+.mxc{
+  text-align: center;
+}
+
+.mxc span:nth-child(1){
+  color: green;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.mxc span:nth-child(2){
+  color: white;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.mxc span:nth-child(3){
+  color: red;
+  font-family: cooper black;
+  font-size: 30px;
+}
+
+.mexico{
+  margin: 13px auto;
+  height: 170px;
+  width: 142px;
+  background-color: white;
+  border-left: 100px green solid;
+  border-right: 100px red solid;
+}
+
+.mexico img{
+  width: 137px;
+  margin-top: 18px;
+}

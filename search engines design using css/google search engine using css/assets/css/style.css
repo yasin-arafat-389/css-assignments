@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+}
+
+.top-bar{
+    width: 100%;
+    height: 60px;
+    padding-top: 6px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.img a{
+    color: rgba(0,0,0,0.87);
+    float: right;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.img a:hover{
+    text-decoration: underline;
+}
+
+.gmail a{
+    color: rgba(0,0,0,0.87);
+    float: right;
+    margin-right: 15px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.gmail a:hover{
+    text-decoration: underline;
+}
+
+.opt{
+    size: 10px;
+    background-color: white;
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    float: right;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.opt:hover{
+    border: rgb(240, 240, 240) 5px solid;
+    border-radius: 50%;
+}
+
+.top-bar button{
+    height: 40px;
+    width: 91px;
+    cursor: pointer;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    float: right;
+    margin-left: 11px;
+    margin-right: 16px;
+}
+
+.top-bar button:hover{
+    background: #5080ed;
+    opacity: 3px;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 
+    0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.google .logo{
+    text-align: center;
+}
+
+.google .sb{
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.google .sb input{
+    width: 586px;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 16px;
+}
+
+.google .sb input:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.google .sb input:focus{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.sb svg{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 34px;
+    right: 407px;
+}
+
+.sb i{
+    position: absolute;
+    top: 37px;
+    left: 406px;
+    color: #9aa0a6;
+}
+
+.buttons{
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.buttons button:nth-child(1){
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons button:nth-child(2){
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttons button:focus{
+    border: 1px solid #4285f4;
+    outline: none;
+}
+
+
+.go{
+    text-align: center;
+    margin-bottom: 173px;
+    font-family: arial;
+    font-size: small;
+}
+
+.go a{
+    text-decoration: none;
+}
+
+.go a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    height: 94px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.footer p:nth-child(1){
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer p:nth-child(2){
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+    float: right;
+}
+
+.footer p:nth-child(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer p:nth-child(3){
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+    float: right;
+}
+
+.footer p:nth-child(3):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer p:nth-child(4){
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+    float: right;
+}
+
+.footer p:nth-child(4):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .f2{
+    width: 436px;
+    display: block;
+    font-size: 14px;
+}
+
+.footer .f2 p:nth-child(1){
+    font-size: 15px;
+    color: #70757a;
+    padding-left: 28px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.footer .f2 p:nth-child(1):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .f2 p:nth-child(2){
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+    float: left;
+}
+
+.footer .f2 p:nth-child(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .f2 p:nth-child(3){
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+    float: left;
+}
+
+.footer .f2 p:nth-child(3):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .f2 p:nth-child(4){
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+    float: left;
+}
+
+.footer .f2 p:nth-child(4):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
