@@ -1,0 +1,778 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.intro{
+    width: 100vw;
+    height: 600px;
+    background-color: #6c0ee0;
+    background: linear-gradient(
+-45deg
+, #6c0ee0 -5%, #f037a6);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: url('../img/bubbles-dktp.svg') no-repeat;
+    background-size: 1580px 1068px;
+    background-position: center -138px;
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+   z-index: 1020;
+}
+
+.header-container{
+    width: 1140px;
+    height: 80px;
+    margin: 0px auto;
+}
+
+.header-container::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.logo{
+    width: 142px;
+    height: 41px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    float: left;
+}
+
+.logo svg{
+    width: 142px;
+    height: 41px;
+    fill: #fff;
+}
+
+.options{
+    width: 508px;
+    height: 80px;
+    float: right;
+}
+
+.part-1{
+    width: 318px;
+    height: 80px;
+    float: left;
+}
+
+.options .part-1 .p1{
+    list-style: none;
+    display: inline-block;
+    padding: 31px 17px;
+}
+
+.options .part-1 .p1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16;
+    font-weight: 700;
+}
+
+.options .part-1 .p1 a:hover{
+    color: #D9DADC;
+}
+
+.separator{
+    width: 1px;
+    height: 16px;
+    background-color: #fff;
+    float: right;
+    position: relative;
+    bottom: 48px;
+}
+
+.part-2{
+    width: 190px;
+    float: left;
+}
+
+.options .part-2 .p2{
+    list-style: none;
+    display: inline-block;
+    padding: 31px 17px;
+}
+
+.options .part-2 .p2 a{
+    text-decoration: none;
+    color: #d9dadc;
+    font-size: 16;
+    font-weight: 700;
+}
+
+.intro-content{
+    width: 100vw;
+    height: 600px;
+}
+
+.screenshot{
+    width: 286px;
+    height: 573px;
+    margin-left: 195px;
+    position: relative;
+    top: 97px;
+}
+
+.screenshot img{
+    width: 267px;
+    height: 445px;
+    position: relative;
+    left: 10px;
+    bottom: 527px;
+}
+
+.txt{
+    width: 653px;
+    height: 226px;
+    padding-left: 593px;
+    position: relative;
+    bottom: 370px;
+}
+
+.pff{
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.gsf{
+    padding: 16px 48px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gsf a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.why-spotify{
+    width: 100vw;
+    height: 542px;
+}
+
+.m-container{
+    height: 422px;
+    padding: 60px 0px;
+}
+
+.m-content{
+    height: 422px;
+    width: 86%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.m-content::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.ws{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.opt1{
+    width: 263px;
+    height: 301px;
+    padding: 0px 15px;
+    margin-top: 40px;
+    float: left;
+}
+
+.circle{
+    width: 172px;
+    height: 172px;
+    border-radius: 172px;
+    background: linear-gradient(#f037a5 -20%, #4001f5 130%);
+    margin: 0 auto;
+}
+
+.circle svg{
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 52px;
+}
+
+.ttl{
+    height: 33px;
+    width: 102%;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.pyf{
+    height: 12px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.description{
+    color: #616467;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.its-free{
+    width: 100vw;
+    height: 494px;
+    background: linear-gradient(#b023c2 15%, #600be7);
+}
+
+.f-container{
+    width: 86%;
+    height: 114;
+    padding: 190px 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.if{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.queries{
+    width: 100vw;
+    height: 546px;
+}
+
+.q-container{
+    height: 426px;
+    padding: 60px 0px;
+}
+
+.q-content{
+    width: 86%;
+    height: 532px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.q-title{
+    text-align: center;
+    height: 57px;
+    margin-bottom: 50px;
+}
+
+.gq{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-button{
+    width: 1026px;
+    color: #000;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    font-weight: 600;
+    padding: 40px 80px 40px 32px;
+    outline: none;
+    border: 1px solid rgb(193, 195, 198);
+    cursor: pointer;
+    text-align: left;
+}
+
+.fa-angle-down{
+  float: right;
+  font-size: 25px;
+}
+
+.fa-angle-up{
+  float: right;
+  font-size: 25px;
+}
+
+.collapse{
+    height: 220px;
+    width: 1024px;
+    margin: 0px auto;
+    border: 1px solid rgb(193, 195, 198);
+    border-top: none;
+    display: none;
+}
+
+.c-container{
+    width: 998px;
+    height: 188px;
+   padding: 0 28px 32px;
+}
+
+.c-text{
+    text-align: left;
+    color: #616467;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tco{
+    text-align: left;
+    color: #616467;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.c-container ol{
+    height: 96px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+.c-container ol li{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    text-align: left;
+}
+
+.bld{
+    font-weight: bold;
+}
+
+.bbnb{
+    width: 1026px;
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 40px 80px 40px 32px;
+    outline: none;
+    border: 1px solid rgb(193, 195, 198);
+    cursor: pointer;
+    text-align: left;
+    border-bottom: none;
+}
+
+.expanded{
+    width: 100vw;
+    height: 670px;
+}
+
+.second-button{
+    width: 1026px;
+    color: #000;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    font-weight: 600;
+    padding: 40px 80px 40px 32px;
+    outline: none;
+    border: 1px solid rgb(193, 195, 198);
+    cursor: pointer;
+    text-align: left;
+    border-top: none;
+}
+
+.fa-angle-down{
+    float: right;
+    font-size: 25px;
+}
+  
+.fa-angle-up{
+    float: right;
+    font-size: 25px;
+}
+
+.collapse2{
+    height: 140px;
+    width: 1024px;
+    margin: 0px auto;
+    border: 1px solid rgb(193, 195, 198);
+    border-top: none;
+    display: none;
+}
+
+.c-container2{
+    width: 998px;
+    height: 140px;
+   padding: 0 28px 32px;
+}
+
+.c-container2 ol{
+    height: 96px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+.c-container2 ol li{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    text-align: left;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bbnb2{
+    width: 1026px;
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 40px 80px 40px 32px;
+    outline: none;
+    border: 1px solid rgb(193, 195, 198);
+    cursor: pointer;
+    text-align: left;
+    border-top: none;
+    border-bottom: none;
+}
+
+.third-button{
+    width: 1026px;
+    color: #000;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    font-weight: 600;
+    padding: 40px 80px 40px 32px;
+    outline: none;
+    border: 1px solid rgb(193, 195, 198);
+    cursor: pointer;
+    text-align: left;
+    border-top: none;
+}
+
+.collapse3{
+    height: 112px;
+    width: 1024px;
+    margin: 0px auto;
+    border: 1px solid rgb(193, 195, 198);
+    border-top: none;
+    display: none;
+}
+
+.c-container3{
+    width: 998px;
+    height: 112px;
+   padding: 0 28px 32px;
+}
+
+.shfl{
+    text-align: left;
+    color: #616467;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.np{
+    margin-top: 8px;
+    color: #616467;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+.bbnb3{
+    width: 1026px;
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 40px 80px 40px 32px;
+    outline: none;
+    border: 1px solid rgb(193, 195, 198);
+    cursor: pointer;
+    text-align: left;
+    border-bottom: none;
+    border-top: none;
+}
+
+.lets-play{
+    background: linear-gradient(
+-45deg
+, #6c0ee0 16%, #f037a6);
+width: 100vw;
+height: 450px;
+}
+
+.lp-container{
+    width: 100%;
+    height: 450px;
+    background-image: url('../img/lets-play.svg');
+    background-size: 1120px 834px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.rlp{
+    width: 1140px;
+    height: 172px;
+    padding: 139px 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.rlp-t{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+
+.btn{
+    width: 253px;
+    height: 48px;
+    margin-top: 32px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.scroll-button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 0 4px 18px 2px rgb(0 0 0 / 13%);
+    position: relative;
+    left: 49%;
+    bottom: 25px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: fill .3s ease-in-out, transform .3s ease-in-out, color .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.scroll-button svg{
+    width: 18px;
+    height: 10px;
+    position: relative;
+    top: 17px;
+  left: 15px;
+}
+
+.scroll-button:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    width: 100vw;
+    height: 537px;
+   background-color: rgb(0, 0, 0);
+}
+
+.footer::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.footer-container{
+    height: 407px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-content{
+    width: 1170px;
+    height: 407px;
+    margin: 0px auto;
+}
+
+.f-logo{
+    width: 165px;
+    height: 346px;
+    padding: 0px 15px;
+    float: left;
+}
+
+.l-svg svg{
+    fill: #fff;
+    width: 132px;
+    height: 42px;
+}
+
+.top-links{
+    width: 585px;
+    height: 346px;
+    float: left;
+}
+
+.column1{
+    width: 165px;
+    height: 346px;
+    padding: 0px 15px;
+    float: left;
+}
+
+.c1-title{
+    margin: 20px 0px;
+}
+
+.c-title{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.column1 ul li{
+    padding-top: 3px;
+    padding-bottom: 15px;
+
+}
+
+.column1 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.column1 ul li a:hover{
+    color: #1ED760;
+}
+
+.social-links{
+    width: 192px;
+    height: 346px;
+    margin-left: 183px;
+    margin-right: 15px;
+    float: left;
+}
+
+.s-container{
+    width: 216px;
+    height: 54px;
+    margin-top: 20px;
+}
+
+.social-links .s-container .sl{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: inline-block;
+    background-color: rgb(34, 35, 38);
+    cursor: pointer;
+}
+
+.sl a{
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 14px;
+    left: 16px;
+    color: #fff;
+}
+
+.fa-facebook-f{
+    position: relative;
+    top: 0px;
+    left: 3px;
+}
+
+.sl:hover a{
+    color: #1DB954;
+}
+
+.region{
+    width: 100%;
+    height: 18px;
+    margin: 0px 15px;
+    text-align: right;
+   float: left;
+}
+
+.region a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #919496;
+}
+
+.region a svg{
+    width: 12px;
+    height: 13px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.region a:hover{
+    color: #1DB954;
+}
+
+.privacy-policy{
+    width: 100%;
+    height: 43px;
+    margin-top: 10px;
+    float: left;
+}
+
+.left-menu{
+    width: 420px;
+    height: 43px;
+    padding-left: 15px;
+    margin-right: 45px;
+    float: left;
+}
+
+.left-menu li{
+    display: inline-block;
+    margin-right: 24px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.left-menu li a{
+    text-decoration: none;
+    color: #919496;
+}
+
+.left-menu li:hover a{
+    color: #1DB954;;
+}
+
+.right-menu{
+    float: right;
+}
+
+.copyright{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 400;
+}
